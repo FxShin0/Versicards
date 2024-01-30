@@ -177,3 +177,10 @@ a {
     animation-timing-function: ease-out;
   }
 }
+@media (min-width: 200px) and (max-width: 992px) {
+  .container {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
